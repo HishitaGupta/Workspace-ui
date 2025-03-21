@@ -40,7 +40,7 @@ const Navbar = ({ z }) => {
     const isHomePage = location.pathname === '/';
 
     return (
-        <nav className="fixed flex top-0 left-0 items-center justify-between text-white pt-2 px-4 sm:px-[5vw] md:px-[4vw] lg:px-[4vw] lg:py-4 py-2 w-full font-heading mb-4 bg-lightSeaGreen/30 backdrop-blur-lg border border-black/10 shadow-sm
+        <nav className="fixed flex top-0 left-0 items-center justify-between text-white pt-2 px-4 sm:px-[5vw] md:px-[4vw] lg:px-[4vw] lg:py-2 py-2 w-full font-heading mb-4 bg-black/60 backdrop-blur-lg border border-black/10 shadow-sm
                        transition duration-300 ease-in-out poppins" style={{ zIndex: z }} >
             {/* /* Logo * */}
             <Link to="/" className="">

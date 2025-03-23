@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <p className="mt-4 md:mt-0">© 2024 Copyright By URBANPACE</p>
+        <p className="mt-4 md:mt-0">© 2025 Copyright By Bihar Innovation</p>
 
         {/* Social Media Icons */}
         <div className="flex space-x-4 mt-4 md:mt-0 text-black text-lg">

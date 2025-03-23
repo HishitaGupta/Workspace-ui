@@ -133,6 +133,7 @@ import heroImage from "../assets/hero-image.jpeg";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { gsap } from "gsap";
 import Button from "./Button";
+import { ArrowRight } from "lucide-react";
 
 const WorkspaceSlider = () => {
     const categories = [
@@ -431,7 +432,7 @@ const WorkspaceSlider = () => {
             `}</style>
 
             <Button className="mt-4">
-                    See More
+                    See More <ArrowRight className="ml-2" size={18} />
             </Button>
         </div>
     );

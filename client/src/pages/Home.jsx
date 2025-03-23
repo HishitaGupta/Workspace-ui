@@ -8,6 +8,7 @@ import FeedbackSlider from '../components/Feedback'
 import FAQ from '../components/FAQ'
 import Footer from '../components/Footer'
 import CTA from '../components/CTA'
+import Partners from '../components/Partners'
 
 const Home = () => {
   return (
@@ -17,7 +18,9 @@ const Home = () => {
         <HomeAbout/>
         
         <WorkspaceSlider/>
+        
         <WorkspaceGrid/>
+        <Partners/>
         <FeedbackSlider/>
         <CTA/>
         <FAQ/>

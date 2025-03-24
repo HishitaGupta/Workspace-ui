@@ -72,7 +72,7 @@ const Navbar = ({ z }) => {
                         >
                             About
                         </HashLink>
-                        <div className='hidden group-hover:flex group-hover:absolute w-[40vw] h-[28vh] group-hover:top-8 group-hover:bg-lightSeaGreen/80 backdrop-blur-lg border border-white/30 z-200 rounded-lg items-center p-6 justify-center font-heading text-white gap-4'>
+                        {/* <div className='hidden group-hover:flex group-hover:absolute w-[40vw] h-[28vh] group-hover:top-8 group-hover:bg-lightSeaGreen/80 backdrop-blur-lg border border-white/30 z-200 rounded-lg items-center p-6 justify-center font-heading text-white gap-4'>
                             <HashLink className=' p-2 rounded-lg bg-primary group-hover:flex justify-center items-center flex-col gap-2 w-full hover:scale-105 transition-transform ease-in-out duration-300' to="/#process">
                                
                                     <img src="https://www.inkonit.com/wp-content/uploads/2015/11/photodune-4791424-the-complexity-of-the-processes-m-1280x1280.jpg" alt="" className='object-cover object-center rounded-lg w-20 h-20' />
@@ -98,7 +98,7 @@ const Navbar = ({ z }) => {
                               
                             </HashLink>
 
-                        </div>
+                        </div> */}
                     </div>
                     {/* <HashLink
                         to="/#process"
@@ -129,14 +129,14 @@ const Navbar = ({ z }) => {
                         to="/apply-form"
                         className="relative font-body hover:text-gray-400 transition after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[1px] after:rounded-full after:bg-white after:transition-all after:duration-300 hover:after:w-full"
                     >
-                        Career
+                        Workspaces
                     </HashLink>
 
                     <HashLink
                         to="/contact"
                         className="relative font-body hover:text-gray-400 transition after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[1px] after:rounded-full after:bg-white after:transition-all after:duration-300 hover:after:w-full"
                     >
-                        Contact Us
+                        Locations
                     </HashLink>
 
                 </ul>

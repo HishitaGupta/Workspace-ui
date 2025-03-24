@@ -21,7 +21,7 @@ const AboutHero = () => {
 
             </div>
 
-            <div className="absolute top-20 right-10 flex px-4 py-6 w-1/3 justify-end border">
+            <div className="absolute top-20 right-10 flex px-4 py-6 w-1/3 justify-end ">
 
                 <h5 className="relative text-gray-200 text-lg  flex gap-4 justify-center items-center tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error alias quae eaque dolorum praesentium iste impedit tenetur facilis necessitatibus asperiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde a laborum non atque doloremque ullam nulla esse excepturi minima vel!</h5>
 

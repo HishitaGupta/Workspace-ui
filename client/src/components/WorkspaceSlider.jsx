@@ -138,17 +138,42 @@ import { ArrowRight } from "lucide-react";
 const WorkspaceSlider = () => {
     const categories = [
         {
-            title: "Private Workspace New",
-            description: "Offering State-of-the-Art Private Workspaces Designed for Optimal Productivity and Comfort.",
-            image: heroImage,
-            discount: "🎉 Discount 50% for member",
+            title: "Private Office",
+            description: "A fully serviced private office space designed for focused work and privacy, ideal for teams and individuals.",
+            image: "https://www.collaborative-office.com/wp-content/uploads/2017/10/AMQ_ACTIV-Pro3.jpg",
+            discount: "🎉 Discount 50% for members",
         },
         {
-            title: "Workspace Green",
-            description: "Combining Functionality and Eco-Friendly Sustainable Workspace Environments.",
-            image: heroImage,
+            title: "Flexible Workspace",
+            description: "A dynamic and adaptable workspace offering hot desks, shared areas, and collaborative zones.",
+            image: "https://img.edilportale.com/product-thumbs/b_WINI_WINEA-STARTUP-2_h2d2eqRyn1.jpeg",
+            discount: "🔥 First month free trial",
+        },
+        {
+            title: "Virtual Office",
+            description: "Get a prestigious business address, mail handling, and phone services without a physical office.",
+            image: "https://vibe.us/blog/how-to-build-a-collaborative-workspace-and-why-you-should/cover.jpg",
+            discount: "🚀 Special pricing for startups",
+        },
+        {
+            title: "Meeting Rooms",
+            description: "Book modern, well-equipped meeting rooms for your business discussions and presentations.",
+            image: "https://images.squarespace-cdn.com/content/v1/5877fcf8ebbd1a0e70bf993e/1518123377433-C4EMS0KB4Y8XI8LPW4FB/People+chatting+in+the+lounge+area+of+a+collaborative+workspace",
+            discount: "💼 Hourly and daily rates available",
+        },
+        {
+            title: "Shared Workspace",
+            description: "Open-plan coworking spaces designed for networking and productivity, with high-speed internet and amenities.",
+            image: "https://www.wework.com/ideas/wp-content/uploads/sites/4/2017/06/CollabFacebook.jpg",
+        },
+        {
+            title: "Event Space",
+            description: "Host your workshops, seminars, and corporate events in our fully equipped event spaces.",
+            image: "https://www.movespacelondon.com/wp-content/uploads/2019/12/Blackfriars-Road-Shared-Lounge.jpg",
         },
     ];
+    
+    
 
     const prevRef = useRef(null);
     const nextRef = useRef(null);
@@ -385,13 +410,13 @@ const WorkspaceSlider = () => {
                                     className="w-full h-full object-cover hover:scale-110 transition-all transform duration-300 ease-in-out" 
                                 />
                             </div>
-                            <div className="absolute left-0 bottom-4 w-1/2 mt-4 rounded-xl border border-white/30 bg-white/30 backdrop-blur-md p-4 mx-4 flex flex-col gap-2">
+                            <div className="absolute left-0 bottom-4 w-1/2 mt-4 rounded-xl border border-black/10 bg-black/60 backdrop-blur-lg p-4 mx-4 flex flex-col gap-2">
                                 <h1 className="text-sm md:text-3xl text-white">{category.title}</h1>
                                 <h3 className="text-sm md:text-sm text-white">{category.description}</h3>
                             </div>
 
                             {category.discount && (
-                                <div className="absolute right-0 top-0 mt-4 rounded-xl border border-white/30 bg-white/30 backdrop-blur-md p-4 mx-4 flex flex-col gap-2">
+                                <div className="absolute right-0 top-0 mt-4 rounded-xl border border-black/10 bg-black/70 backdrop-blur-lg p-4 mx-4 flex flex-col gap-2">
                                     <h3 className="text-sm md:text-sm text-white">{category.discount}</h3>
                                 </div>
                             )}
@@ -411,7 +436,7 @@ const WorkspaceSlider = () => {
             {/* Main cursor */}
             <div
                 ref={cursorRef}
-                className="fixed flex items-center justify-center w-16 h-16 bg-white rounded-full shadow-lg pointer-events-none z-50"
+                className="fixed flex items-center justify-center w-16 h-16 bg-white/50 backdrop-blur-lg border-white border rounded-full shadow-lg pointer-events-none z-50"
                 style={{ top: 0, left: 0 }}
             >
                 <div 

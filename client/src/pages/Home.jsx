@@ -18,9 +18,9 @@ const Home = () => {
         <HomeAbout/>
         
         <WorkspaceSlider/>
-        
-        <WorkspaceGrid/>
         <Partners/>
+        <WorkspaceGrid/>
+        
         <FeedbackSlider/>
         <CTA/>
         <FAQ/>
